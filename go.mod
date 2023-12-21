@@ -2,7 +2,10 @@ module github.com/strick-j/terraform-provider-dpa
 
 go 1.21.4
 
-require github.com/hashicorp/terraform-plugin-sdk/v2 v2.31.0
+require (
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.31.0
+	github.com/strick-j/cybr-dpa v0.0.0-20231221184311-f6084a578930
+)
 
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
@@ -30,7 +33,6 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/oklog/run v1.0.0 // indirect
-	github.com/strick-j/cybr-dpa v0.0.0-20231221184311-f6084a578930 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
